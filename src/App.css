@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.underlinings {
+  width: 6rem;
+  height: .4rem;
+  background-color: rgb(194, 192, 192);
+  margin-top: -1.5rem;
+  border-radius: 1rem;
+}
+
+.review-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
