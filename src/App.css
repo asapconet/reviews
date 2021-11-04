@@ -4,6 +4,13 @@ main {
   color: white;
 }
 
+section {
+   background-color: white;
+   margin-top: 3rem;
+   width: 40rem;
+   border-radius: .2rem;
+   color: rgb(82, 80, 80);
+}
 h1 {
   font-size: 3rem;
 }
