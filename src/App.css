@@ -15,6 +15,7 @@ section {
    border-radius: .2rem;
    color: rgb(82, 80, 80);
    box-shadow: .1rem .1rem 2rem .5rem rgb(223, 221, 221);
+   transition: all .3s linear;
 }
 section:hover {
   box-shadow: .1rem .1rem 2rem .5rem rgb(211, 206, 206) ;
@@ -63,6 +64,7 @@ img {
   width: 12.5rem;
   height: 12.6rem;
   border-radius: 50%;
+    transition: all .4s linear;
 }
 .img-container::before {
   position: absolute;
@@ -96,9 +98,10 @@ img {
   background-color: transparent;
   border: none;
   font-size: 3rem;
+    transition: all .4s linear;
 }
 .nav-btn:hover {
-  color: rgb(109, 104, 104);
+  color: rgb(109, 104, 104);  transition: all .3s linear;
 }
 
 .rand-btn {
@@ -109,6 +112,7 @@ img {
   border-radius: .3rem;
   color: rgb(109, 102, 102);
   text-transform: capitalize;
+    transition: all .4s linear;
 }
 .rand-btn:hover {
  background-color: rgb(124, 120, 120);
