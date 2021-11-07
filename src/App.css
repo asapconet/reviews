@@ -5,19 +5,82 @@ main {
 }
 
 section {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
    background-color: white;
    margin-top: 3rem;
    width: 40rem;
    border-radius: .2rem;
    color: rgb(82, 80, 80);
+   box-shadow: .1rem .1rem 2rem .5rem rgb(223, 221, 221);
+   transition: all .3s linear;
 }
+section:hover {
+  box-shadow: .1rem .1rem 2rem .5rem rgb(211, 206, 206) ;
+}
+
 h1 {
   font-size: 3rem;
+  color: white;
 }
+
+h3 {
+  margin-top: 1rem;
+    margin-bottom: 0%;
+    color: black;
+}
+
+p {
+  margin-top: -.3rem;
+  padding: .3rem;
+  text-align: center;
+  color: black;
+}
+
+img {
+  border-radius: 20rem;
+  position: relative;
+}
+
+.quote {
+  left: 0;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  margin-top: .7rem;
+  background-color: rgb(124, 120, 120);
+  color: white;
+  border-radius: 50%;
+  transform: translateY(25%);
+}
+
+.img-container {
+  position: relative;
+  width: 12.5rem;
+  height: 12.6rem;
+  border-radius: 50%;
+    transition: all .4s linear;
+}
+.img-container::before {
+  position: absolute;
+  background-color: rgb(124, 120, 120);
+  top: -.25rem;
+  right: -.5rem;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .underlinings {
   width: 6rem;
-  height: .4rem;
-  background-color: rgb(194, 192, 192);
+  height: .3rem;
+  background-color: rgb(124, 120, 120);
   margin-top: -1.5rem;
   border-radius: 1rem;
 }
@@ -26,4 +89,42 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.nav-btn {
+  margin-top: -1rem;
+  height: 3rem;
+  color: rgb(165, 158, 158);
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+    transition: all .4s linear;
+}
+.nav-btn:hover {
+  color: rgb(109, 104, 104);  transition: all .3s linear;
+}
+
+.rand-btn {
+  margin: .5rem;
+  height: 2rem;
+  border: transparent;
+  background-color: rgb(238, 238, 238);
+  border-radius: .3rem;
+  color: rgb(109, 102, 102);
+  text-transform: capitalize;
+    transition: all .4s linear;
+}
+.rand-btn:hover {
+ background-color: rgb(124, 120, 120);
+ color: white; 
+}
+
+.role {
+  text-transform: uppercase;
+  color: rgb(109, 102, 102);
+}
+@media only screen and (max-width: 768px) {
+  section {
+    width: 80%;
+  }
 }
