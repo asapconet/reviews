@@ -100,6 +100,7 @@ img {
   border: none;
   font-size: 3rem;
     transition: all .4s linear;
+    cursor: pointer;
 }
 .nav-btn:hover {
   color: rgb(109, 104, 104);  transition: all .3s linear;
@@ -114,6 +115,7 @@ img {
   color: rgb(109, 102, 102);
   text-transform: capitalize;
     transition: all .4s linear;
+    cursor: pointer;
 }
 .rand-btn:hover {
  background-color: rgb(124, 120, 120);
