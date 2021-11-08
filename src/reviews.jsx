@@ -17,6 +17,28 @@ const Reviews = () => {
     return e;
   };
 
+  const nextHandler = () => {
+    setIndex(() => {
+     const newIndex = index + 1
+     return getReviews(newIndex)
+    })
+  }
+
+  const backHandler = () => {
+    setIndex(() => {
+      const newIndex = index - 1
+      return getReviews(newIndex)
+    })
+  }
+
+  const randomSelector = () => {
+    let randomIndex = Math.floor(Math.random(index) * reviewers.length)
+    if (randomIndex === index) {
+      randomIndex = index + 1
+    }
+    return setIndex(getReviews(randomIndex))
+  }
+
   return (
     <section>
       <div className="img-container">
@@ -30,14 +52,14 @@ const Reviews = () => {
       <p>{info}</p>
       <div>
         <button className="nav-btn">
-          <FiChevronsLeft />
+          <FiChevronsLeft onClick={backHandler}/>
         </button>
         <button className="nav-btn">
-          <FiChevronsRight />
+          <FiChevronsRight onClick={nextHandler}/>
         </button>
       </div>
       <div>
-        <button className="rand-btn">show random reviewers</button>
+        <button className="rand-btn" onClick={randomSelector}>show random reviewers</button>
       </div>
     </section>
   );
