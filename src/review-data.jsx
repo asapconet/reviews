@@ -12,14 +12,14 @@ const reviewers = [
     name: "Top Shit",
     role: "catching things",
     info: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic.",
-    image: "",
+    image: "https://media-exp1.licdn.com/dms/image/C4E03AQHCxnS6JnLrOQ/profile-displayphoto-shrink_200_200/0/1632297937010?e=1642032000&v=beta&t=HXYsD6SKzf3HoFVa9ePzaAZMNJahSEvYgSY8D5aCCuA",
   },
   {
       id:'2',
     name: "Musah Shayhi",
     role: "Full-Stack Developer",
     info: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
-    image: "",
+    image: "https://media-exp1.licdn.com/dms/image/D4E35AQEOUxTGlEMo7g/profile-framedphoto-shrink_200_200/0/1628016720940?e=1636473600&v=beta&t=RwzKb951doby0nBlPwF9H_WQN4F41KxwD5PSQAk6Fp4",
   },
   {
       id:'22',
